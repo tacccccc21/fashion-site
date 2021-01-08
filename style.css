@@ -1,0 +1,419 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* ここまでリセット */
+
+/*  */
+
+body {
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: rgb(0, 0, 0);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: rgb(218, 218, 218);
+}
+
+img{
+  vertical-align: bottom;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  
+}
+
+
+.side-bar{
+  /* background-color: turquoise; */
+  width: 20%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+}
+
+.side-logo{
+  height: 22.42px;
+  width: 87px;
+  padding: 25px 0 40px 0;
+}
+
+.side-contents{
+  padding-left: 16%;
+}
+
+.side-menu li{
+  padding-bottom: 25px;
+  list-style: none;
+}
+
+.side-menu li a:hover{
+  text-decoration: underline;
+}
+
+.side-icons .fab{
+  padding: 45px 10px 0 0;
+}
+.side-icons .fab:hover{
+  opacity: 0.5;
+}
+
+
+
+/* メイン */
+
+  .contents{
+    width: 80%;
+  }
+
+  .top-image{
+    width:100%;
+  }
+
+  .message-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1{
+    margin: 0 auto;
+  }
+
+  .heading{
+    font-family: 'Modern Antiqua', 'Nato Sans JP', serif;
+    font-size: 22px;
+    padding: 80px 0 20px 0;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    
+  }
+
+
+
+  .textarea{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .photo-wrapper{
+    margin-top: 70px;
+  }
+
+  .photo-wrapper img{
+    width: 33.333%;
+  }
+
+  span .big-photo{
+    width: 100%;
+  }
+
+  .brand-wrapper{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .brand-contents{
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+  }
+
+  .contents-item{
+    width: 25%;
+    padding: 0 25px;
+    text-align: left;
+  }
+
+  .contents-item img{
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .project-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid; 
+  }
+
+  .project-item{
+    display: flex;
+    padding-bottom: 70px;
+  }
+
+  .project-item img{
+    width: 375px;
+    height: 225px;
+    padding-right: 20px;
+  }
+
+  .project-item p{
+    text-align: left;
+    
+  }
+
+  .canpany-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .canpany-contents{
+    display: flex;
+    padding: 30px 0 200px 0;
+  }
+
+  .address{
+    text-align: left;
+    margin-right: 12%;
+    font-size: 12px;
+  }
+
+  .map{
+  width: 60%;
+  position: relative;
+  padding-bottom: 20%;
+  }
+
+  iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  footer{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  .ham{
+    display: none;
+  }
+
+  /* レスポンシブ モバイル */
+
+  @media(max-width: 600px){
+    
+    .contents{
+      width: 100%;
+      padding-top: 50px;
+    }
+
+
+    .side-bar{
+    width: 100%;
+    height: 60px;
+    background: rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    display: flex;
+    z-index: 5;
+    }
+    
+
+    .side-contents{
+      padding: 0 ;
+      width: 100%;
+      text-align: center;
+    }
+
+    .side-logo{
+      
+      padding: 20px;
+    }
+
+
+    .side-menu {
+      display: none;
+    }
+
+    .side-menu2 li{
+      padding: 10px 0 10px 0;
+      font-size: 20px;
+      border-bottom: 1px solid rgb(195, 195, 195);
+    }
+
+    .side-icons{
+      display: none;
+    }
+
+
+    .photo-wrapper img{
+      width: 100%;
+    }
+
+    .message-wrapper{
+      width: 90%;
+    }
+
+    .textarea{
+      width: 100%;
+      text-align: left;
+    }
+
+  .brand-contents{
+    display: block;
+  }
+
+  .contents-item{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .contents-item img{
+    width: 180px;
+    height: 180px;
+  }
+
+  .project-contents{
+    width: 100%;
+  }
+
+  .project-item{
+    width: 100%;
+    display: block;
+  }
+
+  .project-item img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+  }
+
+  .canpany-contents{
+    display: block;
+  }
+
+  .canpany-contents p{
+    font-size: 14px;
+    margin-bottom: 40px;
+    
+  }
+
+  .map{
+    width: 100%;
+    height: 200px;
+  }
+
+  footer{
+    width: 100%;
+    
+  }
+
+  .ham{
+    display: block;
+  }
+
+
+  .icons{
+    margin-top: 15px;
+    
+  }
+  .fa-lg2{
+    margin-left: 15px;
+  }
+
+
+  }
